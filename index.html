@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Farzana's responsive frontend development portfolio.">
+  <title>Farzana | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="logo" href="#home">Farzana<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">FRONTEND DEVELOPMENT INTERN</p>
+        <h1>Hi, I'm <span>Farzana</span>.</h1>
+        <h2>I build clean and responsive web experiences.</h2>
+        <p class="hero-text">
+          B.Tech IT learner passionate about frontend development, practical projects,
+          and continuously improving my technical skills.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Portfolio introduction card">
+        <div class="avatar">F</div>
+        <h3>Frontend Developer</h3>
+        <p>HTML • CSS • JavaScript</p>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Learning by building.</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>
+            I'm Farzana, a B.Tech Information Technology learner interested in
+            frontend development and practical software projects.
+          </p>
+          <p>
+            I enjoy learning new technologies, creating useful interfaces, and
+            improving my problem-solving and communication skills through hands-on work.
+          </p>
+        </div>
+        <div class="info-card">
+          <p><strong>Focus</strong><span>Frontend Development</span></p>
+          <p><strong>Learning</strong><span>JavaScript & Web Technologies</span></p>
+          <p><strong>Goal</strong><span>Build useful, user-friendly projects</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">SKILLS</p>
+        <h2>My current toolkit.</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><span>01</span><h3>HTML5</h3><p>Semantic and accessible page structure.</p></article>
+        <article class="skill-card"><span>02</span><h3>CSS3</h3><p>Responsive layouts, Flexbox, Grid and modern styling.</p></article>
+        <article class="skill-card"><span>03</span><h3>JavaScript</h3><p>DOM manipulation and interactive web features.</p></article>
+        <article class="skill-card"><span>04</span><h3>Git & GitHub</h3><p>Version control and project collaboration basics.</p></article>
+        <article class="skill-card"><span>05</span><h3>Responsive Design</h3><p>Interfaces designed for mobile, tablet and desktop.</p></article>
+        <article class="skill-card"><span>06</span><h3>Problem Solving</h3><p>Learning through practical coding tasks and projects.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">PROJECTS</p>
+        <h2>Things I've worked on.</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-number">01</div>
+          <h3>ChargeHub</h3>
+          <p>An EV charging discovery concept that helps users find nearby charging stations, compare details and plan charging.</p>
+          <div class="tags"><span>Web Concept</span><span>UI</span><span>EV</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <h3>Frontend Portfolio</h3>
+          <p>A responsive personal portfolio created to demonstrate semantic HTML, modern CSS and JavaScript interactions.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <h3>Learning Projects</h3>
+          <p>A growing collection of small projects created while learning web development and programming fundamentals.</p>
+          <div class="tags"><span>Practice</span><span>JavaScript</span><span>Learning</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Let's connect.</h2>
+        <p>Have an opportunity or project idea? Send me a message.</p>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="your@email.com" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+        <button class="btn primary" type="submit">Send Message</button>
+        <p class="form-message" id="formMessage" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Farzana. Built with HTML, CSS & JavaScript.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
