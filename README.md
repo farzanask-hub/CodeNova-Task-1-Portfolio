@@ -28,13 +28,15 @@ Open `index.html` in a browser.
 
 ## Deployment
 This project can be deployed free using GitHub Pages, Vercel, or Netlify.
+
+
 ## Screenshots
 
 ### Desktop View
-![Desktop](Screenshots/desktop-1280-1.png)
+![Desktop](desktop-1280-1.png)
 
 ### Tablet View
-![Tablet](Screenshots/tablet-768-1.png)
+![Tablet](tablet-768-1.png)
 
 ### Mobile View
-![Mobile](Screenshots/mobile-375-1.png)
+![Mobile](mobile-375-1.png)
